@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduGenie</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>EduGenie</h1>
+        <p class="subtitle">AI-Powered Educational Content Creator</p>
+
+        <div class="card">
+            <label for="courseTitle">Course Title</label>
+            <input id="courseTitle" type="text" placeholder="Enter course title" />
+            <button onclick="generateContent()">Generate Course Plan</button>
+        </div>
+
+        <div id="loading">Generating...</div>
+        <div id="error"></div>
+
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
